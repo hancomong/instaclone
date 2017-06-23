@@ -3,14 +3,107 @@
     <head>
         <meta charset="UTF-8">
         <title>Login | Instaclonge</title>
+        <!--이건 바디에 폰트이미즈를 넣을 수 있도록 하는 사이트 입니다-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
-        <main>
-            <div>
-                <img src="images/phone.png" alt="Phone Image" title="Phone Image" />
+    <!--그냥 폰 이미지 구역-->
+        <main class="login">
+            <div class="login__column">
+                <img src="images/phone.png"
+                     alt="Phone Image"
+                     title="Phone Image"
+                     class="login__phone-image"
+                />
             </div>
-            <section>
+            <!-- 이것은 로그인 구역 -->
+            <section class="login__column">
+                <div class="login__section login__sign-in">
+                    <img
+                        src="images/logo.png"
+                        alt="Logo"
+                        title="Logo"
+                        class="login__logo"
+                    />
+                    <form method="GET" action="feed.html">
+                        <div class="login__input-container">
+                            <input
+                                type="text"
+                                name="username"
+                                placeholder="Username"
+                                required
+                                class="login__input"
+                            />
+                        </div>
+                        <div class="login__input-container">
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder="Password"
+                                required
+                                class="login__input"
+                            />
+                        </div>
+                        <div>
+                            <input
+                                type="submit"
+                                value="Log in"
+                                class="login__input login__input--btn"
+                            />
+                        </div>
+                    </form>
+                    <span class="login__divider">or</span>
+                    <a class="login__fb-link" href="http://facebook.com">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i> Log in with Facebook
+                    </a>
+                </div>
+                <div class="login__section login__sign-up">
+                    <span class="login__text">
+                        Don't have an account?
+                        <a href="http://instagram.com" class="login__link">
+                        Sign up
+                        </a>
+                    </span>
+                </div>
+                <div class="login__section login__section--transparent login__app">
+                    <span class="login__text">
+                    Get the app
+                    </span>
+                    <div class="login__appstores">
+                        <img
+                            src="images/ios.png"
+                            alt="IOS"
+                            title="Get the app!"
+                            class="login__appstore"
+                        />
+                        <img
+                            src="images/android.png"
+                            alt="Android"
+                            title="Get the app!"
+                            class="login__appstore"
+                        />
+                    </div>
+                </div>
             </section>
         </main>
+        <!--EMMET이용하는 방법 footer.footer>nav.footer__nav>ul.footer__list-itme*10>a.footer__link 그리고 탭키를 누르세용 더 많은 정보를 원한다면 docs.emmet.io로 가세용-->
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__list--item"><a href="#" class="footer__link">about us</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">support</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">blog</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">press</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">api</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">jobs</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">privacy</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">terms</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">directory</a></li>
+                    <li class="footer__list--item"><a href="#" class="footer__link">language</a></li>
+                </ul>
+            </nav>
+            <!--span.footer__copyright{}-->
+            <span class="footer__copyright">© 2017 INSTAGRAM</span>
+        </footer>
     </body>
 </html>
