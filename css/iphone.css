@@ -1,0 +1,173 @@
+@media only screen
+	and (min-width: 150px)
+	and (max-width: 650px){
+		/* Globals */
+		body{
+			padding-top: calc(80px);
+			font-size: 14px;
+		}
+		/* Navigation */
+		.navigation{
+			padding: 0px 10px;
+		}
+		.navigation__search-container{
+			display: none;
+		}
+		.navigation__icons{
+			display: flex;
+		}
+		/* Photo */
+		.photo{
+			width: 100%;
+			border: none;
+			margin-bottom: 20px;
+		}
+		.photo,
+		.photo *{
+			background-color: transparent;
+		}
+		.photo__add-comment-container{
+			display: none;
+		}
+		.photo__time-ago{
+			border:none;
+		}
+		.footer{
+			justify-content: center;
+		}
+		.footer__list{
+			justify-content: center;
+		}
+		.footer__list-item{
+			margin-bottom: 15px;
+		}
+		/* Explore */
+		.people{
+			width: 100%;
+			border:none;
+		}
+		.people__person{
+			border-bottom: none;
+		}
+		/* Profile */
+		.profile{
+            margin-top: 20px;
+            width: 100%;
+        }
+        .profile__header{
+            margin-bottom: 0;
+        }
+        .profile__name{
+            flex-wrap: wrap;
+            order:1;
+        }
+        .profile__avatar{
+            width:77px;
+            height: 77px;
+        }
+        .profile__title{
+            font-size: 22px;
+        }
+        .profile__button{
+            order:3;
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        .profile__info{
+            display: flex;
+            flex-direction: column;
+        }
+        .profile__bio{
+            order:2;
+        }
+        .profile__numbers{
+            order:3;
+            margin-top: 30px;
+        }
+        .profile__numbers li{
+            font-size: 14px;
+            text-align: center;
+            color:#999;
+        }
+        .profile__number{
+            color:black;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        .profile__picture{
+        	display: inline-block;
+            width: 33%;
+        }
+        .profile-picture__overlay{
+            display: none;
+        }
+		/* Login */
+		.login{
+			margin-top: 0;
+			width: 100%;
+		}
+		.login__column{
+			width: 100%;
+		}
+		.login__section{
+			border:none;
+			background-color: transparent;
+			margin-bottom: none;
+		}
+		.login__column:first-child{
+			display: none;
+		}
+		.login__column:last-child{
+			margin-left: 0;
+		}
+		.login__appstores{
+			padding: 0;
+			justify-content: center;
+		}
+		.login__appstore:last-child{
+			margin-left: 15px;
+		}
+		/* Edit-profile */
+		.profile-form{
+			border:none;
+			background-color: transparent;
+			display: block;
+			flex-wrap: wrap;
+			width: 90%;
+		}
+		.profile-form__header{
+			justify-content: center;
+			margin-left: 0;
+		}
+		.edit-profile__form{
+			margin-right: 0;
+			padding-left: 0;
+			width: 100%;
+		}
+		.edit-profile__form-row{
+			display: block;
+			justify-content: center;
+			text-align: center;
+		}
+		.edit-profile__label{
+			justify-content: center;
+			text-align: center;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		.edit-profile__input{
+			width: 95%;
+		}
+		.edit-profile__textarea{
+			width: 95%;
+		}
+		.edit-profile__form-row select{
+			width: 100%;
+		}
+		.label[for="similar"]{
+			text-align: center;
+			widows: 100%;
+			margin-left: 0;
+		}
+	}

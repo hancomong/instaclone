@@ -39,7 +39,8 @@
 }
 
 .photo__info{
-    padding:20px 20px 0 20px;
+    padding:20px 20px 0px 20px;
+    margin-left: 30px;
 }
 
 .photo__icons{
@@ -95,4 +96,8 @@
 
 .photo__add-comment:focus{
     outline: none;
+}
+
+.heart{
+    color: red;
 }

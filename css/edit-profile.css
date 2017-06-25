@@ -1,0 +1,120 @@
+.edit-profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-form{
+    width:90%;
+    max-width: 1000px;
+    background-color: white;
+    border:1px solid rgba(0,0,0,.0975);
+    border-radius: 3px;
+    padding: 35px 0;
+}
+
+.profile-form__header{
+    display: flex;
+    align-items: center;
+    margin-left:125px;
+    margin-bottom: 50px;
+}
+
+.edit-profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-form{
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    border:1px solid rgba(0,0,0.0975);
+    border-radius: 3px;
+    padding: 35px 0;
+}
+
+.profile-form__header{
+display: flex;
+align-items: center;
+margin-left: 120px;
+margin-bottom: 50px;
+}
+
+.profile-form__avatar{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    margin-right:30px;
+}
+
+.profile-form__title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.edit-profile__form{
+    padding-left: 50px;
+    width: 90%;
+}
+
+.edit-profile__form-row{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.edit-profile__label{
+    margin-right: 35px;
+    text-align: right;
+    width: 120px;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+}
+
+.edit-profile__input{
+    border:1px solid rgba(0,0,0,.0975);
+    width: 320px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.edit-profile__textarea{
+    width: 320px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    resize: vertical;
+    background-color: white;
+    border:1px solid rgba(0,0,0,.0975);
+}
+
+.edit-profile__form-row select{
+    border-radius: 3px;
+    padding:7px 10px;
+    border:1px solid rgba(0,0,0,.0975);
+    font-size: 16px;
+    resize: vertical;
+    background-color: white;
+}
+
+label[for="similar"]{
+    width: 400px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+label[for="similar"] a{
+    color:#3897f0;
+}
+
+input[type=submit]{
+    background-color: #3897f0;
+    color: white;
+    border:0;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 5px 30px;
+    font-weight: 600;
+}
